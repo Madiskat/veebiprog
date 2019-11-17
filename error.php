@@ -17,10 +17,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h1>Invalid Request</h1>
+                        <h1>Vale tegevus</h1>
                     </div>
                     <div class="alert alert-danger fade in">
-                        <p>Sorry, you've made an invalid request. Please <a href="index.php" class="alert-link">go back</a> and try again.</p>
+                        <p>Oled teinud vale tegevuse. Palun <a href="index.php" class="alert-link">mine tagasi</a> ja proovi uuesti.</p>
                     </div>
                 </div>
             </div>        

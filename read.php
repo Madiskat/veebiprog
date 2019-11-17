@@ -52,7 +52,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>View Record</title>
+    <title>Töötaja vaatamine</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <style type="text/css">
         .wrapper{
@@ -67,21 +67,21 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h1>View Record</h1>
+                        <h1>Vaata töötajat</h1>
                     </div>
                     <div class="form-group">
-                        <label>Name</label>
+                        <label>Nimi</label>
                         <p class="form-control-static"><?php echo $row["name"]; ?></p>
                     </div>
                     <div class="form-group">
-                        <label>Address</label>
+                        <label>Aadress</label>
                         <p class="form-control-static"><?php echo $row["address"]; ?></p>
                     </div>
                     <div class="form-group">
-                        <label>Salary</label>
+                        <label>Palk</label>
                         <p class="form-control-static"><?php echo $row["salary"]; ?></p>
                     </div>
-                    <p><a href="index.php" class="btn btn-primary">Back</a></p>
+                    <p><a href="index.php" class="btn btn-primary">Tagasi</a></p>
                 </div>
             </div>        
         </div>
